@@ -1,0 +1,15 @@
+ensemble: nvt
+temper: 773.15
+time: 1e4 1e6 1.0
+tprn: 1e2
+rcut: 12.66
+kmax: 5
+skin: 0.3
+rdel: 0.02
+l2d: F
+lhb: F
+ldiff: F
+lcouett: F
+lfext: F
+lchem: F
+filname: y

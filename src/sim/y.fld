@@ -1,0 +1,252 @@
+# MOLECULES
+  5
+ # Molecule
+ 1 spce   rigmol     258
+ # sites
+  2
+O    1
+  1.60000E-02  -0.82
+H    2
+  1.00000E-03   0.41
+ # geometry
+ -6.41510E-02   0.00000E+00   0.00000E+00
+  5.13208E-01   8.16490E-01   0.00000E+00
+  5.13208E-01  -8.16490E-01   0.00000E+00
+ # Molecule
+ 2 Li     atmol        0
+ # sites
+  1
+Li   1
+  6.94100E-03   1.00000E+00
+ # Molecule
+ 3 Cl     atmol        0
+ # sites
+  1
+Cl   1
+  3.54527E-02  -1.00000E+00
+ # Molecule
+ 4 tOH surfmol      54
+ # sites
+  2
+O    1
+  1.60000E-02  -0.95
+H    1
+  1.00000E-03  0.425
+ # constraints
+  2
+  1.6
+  1.0
+ # angles
+  1
+  125.52  109.47
+ # Molecule
+ 5 rutile crystal       1
+ # sites
+  2
+ TI           1
+   47.88e-3        2.1
+ O            2
+   16.e-3      -1.05
+        3189
+   38.154      38.154 38.154
+   38.154
+          0
+ # VDW INTERACTIONS
+  1
+  1 spce   O 
+  1 spce   O 
+LeJo
+  3.16600E+00   6.50000E-01
+ 
+  2
+  1 spce   O 
+  2 spce   H 
+zero
+ 
+  3
+  1 spce   O 
+  3 Li     Li
+LeJo
+  2.33550E+00   6.59924E-01
+ 
+  4
+  1 spce   O 
+  4 Cl     Cl
+LeJo
+  3.78350E+00   5.21436E-01
+ 
+  5
+  1 spce   O 
+  5 tOH O 
+ LeJo
+ 3.16554 0.65018
+ 
+  6
+  1 spce   O 
+  6 tOH H 
+zero
+ 
+  7
+  1 spce   O 
+  7 rutile TI
+ LeJo
+ 3.23377 2.2373e-3
+ 
+  8
+  1 spce   O 
+  8 rutile O 
+ LeJo
+ 3.166 0.650
+ 
+  9
+  2 spce   H 
+  2 spce   H 
+zero
+ 
+ 10
+  2 spce   H 
+  3 Li     Li
+zero
+ 
+ 11
+  2 spce   H 
+  4 Cl     Cl
+zero
+ 
+ 12
+  2 spce   H 
+  5 tOH O 
+zero
+ 
+ 13
+  2 spce   H 
+  6 tOH H 
+zero
+ 
+ 14
+  2 spce   H 
+  7 rutile TI
+zero
+ 
+ 15
+  2 spce   H 
+  8 rutile O 
+zero
+ 
+ 16
+  3 Li     Li
+  3 Li     Li
+LeJo
+  1.50500E+00   6.90000E-01
+ 
+ 17
+  3 Li     Li
+  4 Cl     Cl
+LeJo
+  2.95300E+00   5.29397E-01
+ 
+ 18
+  3 Li     Li
+  5 tOH O 
+LeJo
+  2.33550E+00   6.59924E-01
+ 
+ 19
+  3 Li     Li
+  6 tOH H 
+zero
+ 
+ 20
+  3 Li     Li
+  7 rutile TI
+LeJo
+ 2.4035 2.30478e-3
+ 
+ 21
+  3 Li     Li
+  8 rutile O 
+LeJo
+  2.33550E+00   6.59924E-01
+ 
+ 22
+  4 Cl     Cl
+  4 Cl     Cl
+LeJo
+  4.40100E+00   4.18300E-01
+ 
+ 23
+  4 Cl     Cl
+  5 tOH O 
+LeJo
+  3.78350E+00   5.21436E-01
+ 
+ 24
+  4 Cl     Cl
+  6 tOH H 
+zero
+ 
+ 25
+  4 Cl     Cl
+  7 rutile TI
+LeJo
+ 3.8515 1.7945e-3
+ 
+ 26
+  4 Cl     Cl
+  8 rutile O 
+LeJo
+  3.78350E+00   5.21436E-01
+ 
+ 27
+  5 tOH O 
+  5 tOH O 
+ LeJo
+ 3.16554 0.65018
+ 
+ 28
+  5 tOH O 
+  6 tOH H 
+zero
+ 
+ 29
+  5 tOH O 
+  7 rutile TI
+ LeJo
+ 3.23377 2.2373e-3
+ 
+ 30
+  5 tOH O 
+  8 rutile O 
+ LeJo
+ 3.16554 0.65018
+ 
+ 31
+  6 tOH H 
+  6 tOH H 
+zero
+ 
+ 32
+  6 tOH H 
+  7 rutile TI
+zero
+ 
+ 33
+  6 tOH H 
+  8 rutile O 
+zero
+ 
+ 34
+  7 rutile TI
+  7 rutile TI
+  zero
+ 
+ 35
+  7 rutile TI
+  8 rutile O 
+  zero
+ 
+ 36
+  8 rutile O 
+  8 rutile O 
+  zero
+

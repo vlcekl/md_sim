@@ -1,0 +1,42 @@
+
+      subroutine MPI_INIT(i)
+	integer i
+	i=1
+	end
+
+      subroutine mpi_finalize(i)
+	integer i
+	i=1
+	end
+
+      subroutine mpi_comm_size(i,i1,i2)
+	integer i,i1,i2
+	i=1
+!must be 1 - nproc
+	i1=1
+	i2=1
+	end
+
+      subroutine mpi_comm_rank(i,i1,i2)
+	integer i,i1,i2
+	i=1
+!must be zero - me
+	i1=0
+	i2=1
+	end
+
+	subroutine mpi_allreduce(f1,f2,i,i1,i2,i3,i4)
+      real*8 f1,f2
+	integer i,i1,i2,i3,i4
+        f2 = f1
+	end
+
+	subroutine mpi_reduce(f1,f2,i,i1,i2,i3,i4,i5)
+      real*8 f1,f2
+	integer i,i1,i2,i3,i4,i5
+	end
+
+      subroutine mpi_bcast(i1,i2,i3,i4,i5,i6)
+	integer i2,i3,i4,i5,i6
+	real*8 i1
+	end

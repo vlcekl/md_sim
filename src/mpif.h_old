@@ -1,0 +1,1 @@
+      integer mpi_comm_world,mpi_double_precision,mpi_integer8,mpi_sum
